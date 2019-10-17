@@ -8,7 +8,7 @@
             @mouseenter="hover(true,index + 1)"
             @mouseout="hover(false)"
             @click="selectRating(index+1)">
-            {{ getIcon(index + 1) }}
+            \{{ getIcon(index + 1) }}
         </i>
     </div>
 </template>

@@ -6,10 +6,9 @@
             <select :class="options.customClass" :name="options.label" :required="options.required"
                 :placeholder="options.placeholder" v-model="clonedValue.value" @change="handler"
                 @input="options.onChangeEvent" class="form-control" :disabled="options.disabled">
-                <option value v-if="options.defaultLabelText != null && options.defaultLabelText.length > 0">{{
-                    options.defaultLabelText }}
+                <option value v-if="options.defaultLabelText != null && options.defaultLabelText.length > 0">\{{ options.defaultLabelText }}
                 </option>
-                <option v-for="(item,key) in items" :value="item.Id ? item.Id: item" :key="key">{{ displayAs(item) }}
+                <option v-for="(item,key) in items" :value="item.Id ? item.Id: item" :key="key">\{{ displayAs(item) }}
                 </option>
             </select>
         </div>

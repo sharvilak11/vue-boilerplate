@@ -1,7 +1,7 @@
 <template>
     <div class="chip" :class="cssClass">
         <slot name="pre"></slot>
-        {{ text }} <i v-if="!hideRemove" class="material-icons" @click="$emit('removed', value)">cancel</i>
+        \{{ text }} <i v-if="!hideRemove" class="material-icons" @click="$emit('removed', value)">cancel</i>
         <slot name="post"></slot>
     </div>
 </template>

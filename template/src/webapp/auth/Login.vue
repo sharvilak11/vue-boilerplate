@@ -19,7 +19,7 @@
                         <a class="brand-primary bold">Forgot Password?</a>
                     </div>
                     <button :disabled="isNotProceedable" type="button" class="btn btn-primary btn-full" @click="login">Login</button>
-                    <p class="mt16 error text-left" v-if="errMessage">{{ errMessage }}</p>
+                    <p class="mt16 error text-left" v-if="errMessage" v-text="errMessage"></p>
                 </div>
             </div>
             <div class="col-md-6 pr0">

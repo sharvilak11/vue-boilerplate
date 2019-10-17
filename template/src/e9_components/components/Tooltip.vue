@@ -1,8 +1,7 @@
 <template>
     <div class="tooltip-wrapper" @mouseover="showInfo(true)" @mouseout="showInfo(false)">
         <slot></slot>
-        <span v-show="showTooltip" class="tooltip-info" :style="getPosition">
-            {{ message }}
+        <span v-show="showTooltip" class="tooltip-info" :style="getPosition" v-text="message">
         </span>
     </div>
 </template>

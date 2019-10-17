@@ -3,7 +3,7 @@
         <ul class="menu">
             <router-link tag="li" :to="route.path" active-class="active" v-for="(route,key) in routes" :key="key">
                 <a class="profile">
-                    <i class="material-icons">{{ route.meta.icon || 'No icon' }}</i>
+                    <i class="material-icons">\{{ route.meta.icon || 'No icon' }}</i>
                     <span v-text="route.name"></span>
                 </a>
             </router-link>

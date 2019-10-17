@@ -2,11 +2,11 @@
     <div>
         <div class="mb16 back" v-if="rData && rData.Name">
             <i class="material-icons">arrow_back</i>
-            <h3 class="section-title mb0">{{ rData.Name }}</h3>
+            <h3 class="section-title mb0" v-text="rData.Name"></h3>
         </div>
         <b-nav tabs>
             <b-nav-item v-for="(tab,key) in tabs" :to="tab.path" exact :key="key" exact-active-class="active">
-                {{ tab.name }}
+                \{{ tab.name }}
             </b-nav-item>
         </b-nav>
         <router-view></router-view>
