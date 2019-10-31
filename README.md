@@ -1,6 +1,7 @@
-# vue boilerplate for multi module projects with flext type sidebar
+# vue boilerplate for multi module projects
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, commit verification & scss loader.
+> To read documentation please visit https://components9.firebaseapp.com
 
 ## Usage
 
