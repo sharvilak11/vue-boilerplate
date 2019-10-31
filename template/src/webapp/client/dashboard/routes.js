@@ -15,3 +15,21 @@ store.state['sideBarModule'].menuItems.push({
     path: '/dashboard',
     icon: 'dashboard'
 });
+
+/*
+    For sub navigation bar
+
+    expanded: false,
+    subItems: [
+        {
+            name: 'Auth',
+            path: 'settings/auth',
+            icon: 'profile'
+        },
+        {
+            name: 'Timeoff',
+            path: 'settings/timeoff',
+            icon: 'calendar'
+        }
+    ]
+*/
