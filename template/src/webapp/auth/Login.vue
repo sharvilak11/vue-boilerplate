@@ -70,6 +70,9 @@ export default {
                     } else if (userType.indexOf('Tenant') > -1) {
                         tokenInfo.UserType = 'Tenant';
                         destination = './tenant/index.html';
+                    } else if (userType.indexOf('Client') > -1) {
+                        tokenInfo.UserType = 'Client';
+                        destination = './client/index.html';
                     }
                     this.$cookies.set('token', tokenInfo.TokenString);
                     delete tokenInfo.TokenString;

@@ -1,11 +1,11 @@
 import Vue from 'vue';
 import App from './App';
 import '@/plugins/vue-cookies';
-import router from '@/webapp/tenant/router';
+import router from '@/webapp/client/router';
 import '@/plugins';
 import '@/e9_components';
 import '@/scss/style.scss';
-import {store} from '@/webapp/tenant/store';
+import {store} from '@/webapp/client/store';
 
 import ApiService from '@/services/ApiService';
 

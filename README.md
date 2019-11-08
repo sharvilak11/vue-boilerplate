@@ -1,6 +1,7 @@
 # vue boilerplate for multi module projects
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, commit verification & scss loader.
+> To read documentation please visit https://components9.firebaseapp.com
 
 ## Usage
 
@@ -10,7 +11,7 @@ It is recommended to install the global bridge to make vue cli 3 use the starter
 ``` bash
 $ npm install -g @vue/cli-init
 $ npm install -g vue-cli
-$ vue init sharvilak/vue-boilerplate .
+$ vue init e9-devops/vue-boilerplate-flext .
 $ npm install
 $ npm run dev
 ```
